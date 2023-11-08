@@ -17,9 +17,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 from hello_world.core import views as core_views
+from data_sci import views as data_sci_views
 
 urlpatterns = [
     path("", core_views.index),
     path("admin/", admin.site.urls),
     path("__reload__/", include("django_browser_reload.urls")),
+    path("data_sci/", data_sci_views.data_index_view),
+    path("data_sci/item/<item_id>", data_sci_views.data_sci_item_view)
 ]
