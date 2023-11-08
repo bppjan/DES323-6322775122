@@ -11,3 +11,7 @@ To run this application:
 ```python
 python manage.py runserver
 ```
+6322770130 Pannawit
+6322772409 Phatwasin Suksai
+6322775122 Ploypichcha 
+6322775288 Methus
